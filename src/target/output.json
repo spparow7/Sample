@@ -1,0 +1,234 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-11-26T11:15:28.539Z",
+        "line": 18,
+        "name": "verifying adactin login with login data",
+        "description": "",
+        "id": "verifying-the-adactin-login-page;verifying-adactin-login-with-login-data;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 14331693900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on adactin page",
+            "match": {
+              "location": "Stepdefinitionclass.a()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 950978500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user should enter \"udhayaaravind\"and\"Aravind9696\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"udhayaaravind\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"Aravind9696\"",
+                  "offset": 36
+                }
+              ],
+              "location": "Stepdefinitionclass.user_should_enter_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1023820300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user should click login button",
+            "match": {
+              "location": "Stepdefinitionclass.c()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 18450900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user should verify after login success message",
+            "match": {
+              "location": "Stepdefinitionclass.d()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 454488600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user should enter \"Sydney\",\"Hotel Creek\",\"\u003cRoom Type\u003e\",\"2 - Two\",\"26/09/2022\",\"28/09/2022\",\"2 - Two\",\"0 - None\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sydney\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"Hotel Creek\"",
+                  "offset": 27
+                },
+                {
+                  "val": "\"\u003cRoom Type\u003e\"",
+                  "offset": 41
+                },
+                {
+                  "val": "\"2 - Two\"",
+                  "offset": 55
+                },
+                {
+                  "val": "\"26/09/2022\"",
+                  "offset": 65
+                },
+                {
+                  "val": "\"28/09/2022\"",
+                  "offset": 78
+                },
+                {
+                  "val": "\"2 - Two\"",
+                  "offset": 91
+                },
+                {
+                  "val": "\"0 - None\"",
+                  "offset": 101
+                }
+              ],
+              "location": "Stepdefinitionclass.user_should_enter(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2116756100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user should click search button",
+            "match": {
+              "location": "Stepdefinitionclass.user_should_click_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 64947600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user should selecthotel",
+            "match": {
+              "location": "Stepdefinitionclass.user_should_selecthotel()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1572462800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user should click continue",
+            "match": {
+              "location": "Stepdefinitionclass.user_should_click_continue()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 492420600,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user should enter after select hotel \"udhayaa\",\"Aravind\",\"chennai\",\"1234567891123456\",\"VISA\",\"December\",\"2022\",\"123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"udhayaa\"",
+                  "offset": 37
+                },
+                {
+                  "val": "\"Aravind\"",
+                  "offset": 47
+                },
+                {
+                  "val": "\"chennai\"",
+                  "offset": 57
+                },
+                {
+                  "val": "\"1234567891123456\"",
+                  "offset": 67
+                },
+                {
+                  "val": "\"VISA\"",
+                  "offset": 86
+                },
+                {
+                  "val": "\"December\"",
+                  "offset": 93
+                },
+                {
+                  "val": "\"2022\"",
+                  "offset": 104
+                },
+                {
+                  "val": "\"123\"",
+                  "offset": 111
+                }
+              ],
+              "location": "Stepdefinitionclass.user_should_enter_after_select_hotel(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 50376300,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user should click booknow",
+            "match": {
+              "location": "Stepdefinitionclass.user_should_click_booknow()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6097275100,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user should get booking id",
+            "match": {
+              "location": "Stepdefinitionclass.user_should_get_booking_id()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "verifying the adactin login page",
+    "description": "",
+    "id": "verifying-the-adactin-login-page",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Feature/login.feature",
+    "tags": []
+  }
+]
